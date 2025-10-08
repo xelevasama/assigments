@@ -30,14 +30,14 @@ public class ContactAgenda {
                         System.out.print("Phone: ");
                         phones[count] = sc.nextLine();
                         count++;
-                        System.out.println("✅ Contact added.");
+                        System.out.println(" Contact added.");
                     } else {
-                        System.out.println("⚠️ Agenda is full, cannot add more contacts.");
+                        System.out.println("️ Agenda is full, cannot add more contacts.");
                     }
                     break;
 
                 case 2:
-                    System.out.println("\n📋 Saved contacts:");
+                    System.out.println("\n Saved contacts:");
                     for (int i = 0; i < count; i++) {
                         System.out.println((i + 1) + ". " + names[i] + " - " + phones[i]);
                     }
@@ -54,12 +54,12 @@ public class ContactAgenda {
                         }
                     }
                     if (!found) {
-                        System.out.println("❌ Contact not found.");
+                        System.out.println(" Contact not found.");
                     }
                     break;
 
                 case 4:
-                    System.out.println("👋 Exiting...");
+                    System.out.println(" Exiting...");
                     break;
 
                 default:
