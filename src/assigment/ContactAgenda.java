@@ -49,7 +49,7 @@ public class ContactAgenda {
                     boolean found = false;
                     for (int i = 0; i < count; i++) {
                         if (names[i].equalsIgnoreCase(search)) {
-                            System.out.println("📞 " + names[i] + " - " + phones[i]);
+                            System.out.println(" " + names[i] + " - " + phones[i]);
                             found = true;
                         }
                     }
